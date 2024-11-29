@@ -1,0 +1,27 @@
+{
+  "name": "web-fullstack-cli",
+  "version": "1.0.2",
+  "description": "A CLI tool to create a full-stack project",
+  "main": "index.js",
+  "bin": {
+    "create-fullstack-app": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "web-fullstack-cli": "file:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-prathap/my-fullstack-cli.git"
+  },
+  "author": "PRATHAP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-prathap/my-fullstack-cli/issues"
+  },
+  "homepage": "https://github.com/dev-prathap/my-fullstack-cli#readme"
+}
